@@ -41,6 +41,9 @@ Ensure the following are installed:
 
 ### 📦 Install Dependencies
 
+npm install express multer xlsx venom-bot cors body-parser moment
+
+
 ```bash
 npm install
 
