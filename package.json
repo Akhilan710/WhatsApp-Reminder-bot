@@ -1,0 +1,33 @@
+{
+    "name": "whatsapp-ai-bot",
+    "version": "1.0.0",
+    "description": "WhatsApp appointment reminder system with web UI",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "dayjs": "^1.11.10",
+        "dotenv": "^16.3.1",
+        "express": "^4.21.2",
+        "googleapis": "^128.0.0",
+        "multer": "^1.4.5-lts.1",
+        "qrcode": "^1.5.4",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.23.0",
+        "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "keywords": [
+        "whatsapp",
+        "bot",
+        "appointments",
+        "reminder"
+    ],
+    "author": "",
+    "license": "ISC"
+}
